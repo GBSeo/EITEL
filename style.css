@@ -1,0 +1,87 @@
+body, html {
+	width: 100%;
+	background: #F8F4F0;
+  margin: 0; padding: 0;
+  overflow-x: hidden;
+}
+
+.mainbanner {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+.mainbanner img {
+  width: 100%;
+}
+
+.gradient{
+	width:100%;
+	position: relative;
+	height: 2322px;
+	background: rgb(30,29,29);
+	background: linear-gradient(0deg, rgba(30,29,29,1) 30%, rgba(30,29,29,0) 100%);
+	display: flex;
+	}
+
+.gradient_text1{
+	position: absolute;
+	top: 430px;
+	left: 500px;
+	transform: translate(-50%, -50%);
+	font-family: Pretendard;
+	font-style: SemiBold;
+	font-size: 56px;
+	Line-height: 140%;
+	Align: Left;
+	Vertical align: Top;
+	}
+
+.gradient_text2{
+	position: absolute;
+	top: 740px;
+	right: 0px;
+	transform: translate(-50%, -50%);
+	font-family: Pretendard;
+	font-style: semibold;
+	font-size: 56px;
+	Line-height: 140%;
+	Align: Left;
+	Vertical align: Top;
+	}
+
+.girl_back {
+	z-index: 2;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.girl_back img{
+	width: 950px; height: auto;
+	filter: drop-shadow(4px 4px 60px #000);
+}
+
+.stupid{
+	z-index: 1;
+  position: absolute;
+  bottom: 160px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.gradient_text3{
+	z-index: 3;
+	color: #F8F4F0;
+	position: absolute;
+ 	bottom: 40px;
+  	left: 50%;
+ 	transform: translateX(-50%);
+	font-family: Pretendard;
+	font-style: semibold;
+	font-size: 56px;
+	Line-height: 72%;
+	letter-spacing: 20px;
+	Align: left;
+	Vertical align: Top;
+	}
